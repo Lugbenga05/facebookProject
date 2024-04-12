@@ -1,0 +1,195 @@
+.signupBackground{
+    background-color: #ffffff;
+    width: 390px;
+    height: 480px;
+    margin-left: 450px;
+    position: absolute;
+    border-radius: 8px;
+    bottom: 45px;
+}
+
+.signupWrap{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#modalButton{
+    margin-right: 15px;
+    margin-top: 15px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: #ffffff;
+    font-weight: bold;
+
+}
+#signUp{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 32px;
+}
+
+#quick{
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+#signupHR{
+    margin-top: 10px;
+    color: rgb(241, 240, 240);
+}
+
+.inputFname{
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 175px;
+    height: 35px;
+    background-color: rgb(241, 240, 240);
+    border: solid 1px;
+    border-color: gray;
+    border-radius: 4px;
+}
+
+.inputSur{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 175px;
+    height: 35px;
+    background-color: rgb(241, 240, 240);
+    border: solid 1px;
+    border-color: gray;
+    border-radius: 4px;
+}
+
+.inputEpass{
+    margin-top: 8px;
+    margin-left: 15px;
+    width: 360px;
+    height: 35px;
+    background-color: rgb(241, 240, 240);
+    border: solid 1px;
+    border-color: gray;
+    border-radius: 4px;
+
+}
+
+input::placeholder{
+    padding: 10px;
+}
+
+input{
+    padding: 10px;
+}
+
+.labelInput{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.selectInput{
+    margin-left: 15px;
+    width: 110px;
+    height: 30px;
+    border: solid 1px;
+    border-color: gray;
+    border-radius: 4px;
+}
+
+.genderLabel-container{
+    display: flex;
+}
+
+.gender-wrap{
+    margin-left: 15px;
+    border: solid 1px;
+    width: 110px;
+    height: 30px;
+    border: solid 1px;
+    border-color: gray;
+    border-radius: 4px;
+}
+
+.genderLabel{
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+/* .questionMark{
+    width: 12px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: darkgrey;
+} */
+
+#female{
+    margin-left: 30px;
+}
+
+#male{
+    margin-left: 45px;
+}
+
+#custom{
+    margin-left: 30px;
+}
+
+#text-one{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 10px;
+}
+
+#learnMore{
+    text-decoration: none;
+    color: #0a50ac;
+}
+
+#learnMore:hover{
+    text-decoration: underline;
+    color: #0a50ac;
+}
+
+#text-two{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 10px;
+}
+
+#terms{
+    text-decoration: none;
+    color: #0a50ac;
+
+}
+
+#terms:hover{
+    text-decoration: underline;
+    color: #0a50ac;
+}
+
+#cookiesPolicy{
+    text-decoration: none;
+    color: #0a50ac;
+}
+
+#cookiesPolicy:hover{
+    text-decoration: underline;
+    color: #0a50ac;
+}
+
+#signupBtn{
+    margin-top: 25px;
+    margin-left: 115px;
+    width: 165px;
+    height: 34px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(125, 197, 16);
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+}

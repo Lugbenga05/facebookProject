@@ -1,0 +1,127 @@
+.backGroundBlur{
+    filter: blur(1.5px);
+    background-color: rgba(255, 255, 255, 0.1);
+    
+}
+
+.facebookWrap{
+    margin-top: 125px;
+    margin-left: 50px;
+    
+}
+
+#facebookImage{
+    width: 350px;
+    height: 100px;
+}
+
+#facebookText{
+    margin-left: 50px;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+
+.mainBackground{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.loginContainer{
+    margin-top: 100px;
+    margin-right: 80px;
+    
+}
+
+#formWrap{
+    margin-top: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 2px 0px 2px 0px rgb(218, 216, 216), 0px 2px 2px 0px rgb(218, 216, 216), 2px 0px 2px 0px rgb(218, 216, 216), 0px 2px 2px 0px rgb(218, 216, 216);
+}
+
+.loginInput{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 94%;
+    height: 70px;
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: rgb(241, 240, 240);
+    
+}
+
+.loginInput::placeholder{
+    padding: 15px;
+    font-size: 15px;
+    font-weight: normal;
+    color: rgb(206, 202, 202);
+
+}
+
+#loginBtn{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 94%;
+    height: 70px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#forgotPassword{
+    margin-top: 10px;
+    text-align: center;
+    /* color: #1877f2; */
+}
+
+#forgotPassword-link{
+    text-decoration: none;
+    color: #1877f2;
+    font-weight: normal;
+}
+
+#loginHR{
+    margin-left: 10px;
+    width: 94%;
+    color: rgb(206, 202, 202);
+}
+
+#createAccountbtn{
+    margin-bottom: 20px;
+    margin-left: 90px;
+    height: 70px;
+    width: 180px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(125, 197, 16);
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#createPage{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+
+}
+
+#createPage-link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
